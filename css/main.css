@@ -334,7 +334,7 @@ a {
 			        width: 23.5%;
 				    float: left;
 				        margin-right: 2%;
-					margin-bottom:60px;
+					margin-bottom:65px;
 					position: relative;
 				} 
 
@@ -366,13 +366,23 @@ a {
 	color:#2e2e2e;
 	font-size:11px;
 	font-weight:bold;
-	padding :7px 0 5px 0;
+	padding :5px 0 0px 0;
 }
 
-.pic > span {
-	color:#2e2e2e;
+.pic >h1 {
+	color:#55555a;
+	font-size : 13px;
+}
+
+.pic > h1 > span {
+	color:#55555a;
 	font-size:11px;
 	text-decoration: line-through;
+}
+.pic > h2 {
+	color: #ff726b;
+	font-size:11px;
+
 }
 
 /*****con3*****/
@@ -581,3 +591,10 @@ a {
 	color: #555;
 }
 
+<?php 
+} else {
+?>
+<div id="login"><a href="./login/logout.php">Logout</a>
+	| <a href="./member/member_modify.php">Modify</a>
+	</div>
+<?php } ?>

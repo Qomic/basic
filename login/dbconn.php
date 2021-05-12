@@ -1,4 +1,7 @@
 <?php
+
+include get-parameters.php
+
 $mysql_hostname = 'sajo.cagmxbo3kze2.ap-northeast-2.rds.amazonaws.com';
 $mysql_username = 'careadmin';
 $mysql_password = 'hackers';

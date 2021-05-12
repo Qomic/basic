@@ -1,0 +1,132 @@
+<? session_start();?>
+<html>
+	<head>
+
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>  
+<script src="js/custom.js"></script>
+
+	</head>
+	<body>
+	
+	<div id="wrap">
+		<header>
+
+         <div class="gnb">
+                <ul>
+                    <li><a href="#"><img src="images/lang_kor.png" alt="sub2"> KR</a></a>
+                        <ul class="sub2">
+                            <li><a href="#"><img src="images/lang_kor.png" alt="sub2"> KR</a></a></li>
+                            <li><a href="/japan/index.html"><img src="images/lang_jp.png" alt="sub2"> JP</a></a></li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+            </div>
+            <?php 
+			if(! $_SESSION['userid'])
+			{
+				?>
+            			<div id="login">
+                | <a href="./login/login_form.php">로그인</a>
+				| <a href="./member/join.php">회원가입</a>
+                | <a href="#"><img src="images/common_search.png" alt="sub"></a>
+                | <a href="#"><img src="images/common_my.png" alt="sub"></a>
+                | <a href="#"><img src="images/common_cart02.png" alt="sub"></a>
+            			</div>
+                        
+  
+        
+		
+			<div id="logo">
+			<h1>	<a href="/basic/index.php"><img src="images/logo.png" width="550" height="150"  alt="로고"></a> </h1>
+			</div>
+		
+			<nav><ul>
+				<li><a href="/basic/index.php">NEW12%</a> </li>
+				<li><a href="/basic/company/welcome.php">BEST</a></li>
+				<li><a href="#">자체제작</a></li>
+				<li><a href="/basic/greet/list.php">플랫/로퍼</a></li>
+                <li><a href="#">힐/펌프스</a></li>
+                <li><a href="#">스니커즈/슬립온</a></li>
+				<li><a href="#">부츠/워커</a></li>
+                                <li><a href="#">블로퍼/슬리퍼</a></li>
+			</ul></nav>
+		</header>
+
+            <div id="contents"> 
+                    <div class="con1">  
+                       <div class="main">
+                           <img src="images/submain.png" width="600" height="600" alt="submain">
+
+                       </div> 
+                    </div>
+
+                    <div class="con2">
+                        <img src="images/SALE.gif" alt="SALE">
+                        <h2>에피엘 키높이 스니커즈 블로퍼 5cm</h2>
+                        <p>여름내내 즐겨신기 좋으며<br>
+                            데일리한룩에 활용도 높게 신어질거에요~</p>
+                    </div>
+
+                    <div class="con3">
+                        <div class="con3-1">
+                            <ul>
+                                <a href="#"><li>상품상세정보</li></a>
+                                <a href="#"><li>상품사용후기</li></a>
+                                <a href="#"><li>상품Q&A</li></a>
+                            </ul>
+                        </div>
+                        <div class="prod"><img src="images/prod.png" alt=""></div>
+                    </div>
+
+                    <div class="explanation">
+                       <h2>[ MD COMMENT ]</h2>
+                       <br>
+                       <br>
+                       <p>편하게 즐겨신기 좋은 스니커즈 블로퍼를 소개할게요<br>
+                        <br>
+
+                        1.5cm의 속굽과 3.5cm의 굽높이로 키높이 효과는 물론<br>
+                        슈즈의 유연한 텐션감까지 있어 발의 편안함을 더해주어요<br>
+                        <br>
+                        미끄러움 걱정없는 논슬립 바닥창을 사용해<br>
+                        안정감있는 착화감을 선사해준답니다<br>
+                        <br>
+                        어떤 룩에나 즐기기 좋은 베이직한 디자인으로<br>
+                        다양한 느낌으로 연출하기 좋아 컬러별 소장도 추천드려요-!!<br>
+                        <br>
+                        분리가능한 키높이 깔창으로 활용도 높B게 즐길 수 있으며<br>
+                        <br>
+                        한여름까지도 즐기기 좋아 고민말고 겟 하셔도 좋아요:)<br>
+                        포인트 컬러로 딱 예쁜 레드와 청록컬러가 추가되었으니<br>
+                        빠르게 소장하셔서 발끝에 산뜻함을 더해보세요♥<br>
+                        <br>
+                        고민은 배송만 늦출뿐, 지금바로 러블리슈즈에서 만나보세요♡<br>
+                        <br>
+                        <br>
+                        컬러는 화이트/옐로우/레드/청록/블랙 총 5가지<br>
+                        / 사이즈는 230-250 준비되어있어요~♥<br>
+                        <br>
+                        <br>
+                        Editor : JJ</p>
+                    </div>
+                    
+
+        
+            
+                           
+
+            </div>
+
+        
+
+
+
+
+	</div><!-- wrap -->
+	</body>
+</html>
